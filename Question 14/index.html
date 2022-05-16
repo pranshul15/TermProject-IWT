@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <button type="button" onclick="loadXMLDoc()">Click to fill data</button><br>
+    <div id="content">
+        <table id="books" cellpadding="5px" style="text-align:left">
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function loadXMLDoc(){
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function(){
+                if(this.readyState==4 && this.status == 200){
+                    myFunction(this);
+                }
+            }
+            xmlhttp.open("GET","../Question 13/books.xml",true);
+            xmlhttp.send();
+        }
+
+        function myFunction(xml){
+            let xmlDoc = xml.responseXML;
+            // console.log(xmlDoc);
+            let author_array = xmlDoc.getElementsByTagName("author");
+            // console.log(author_array);
+            let title_array = xmlDoc.getElementsByTagName("title");
+            // console.log(title_array);
+            let price_array = xmlDoc.getElementsByTagName("price");
+            // console.log(price_array);
+            let genre_array = xmlDoc.getElementsByTagName("genre");
+            // console.log(genre_array);
+            let table = document.getElementById("books");
+            for(let i = 0; i < author_array.length; i++){
+                let row = table.insertRow(i+1);
+                let author = row.insertCell(0);
+                let title = row.insertCell(1);
+                let price = row.insertCell(2);
+                let genre = row.insertCell(3);
+                author.innerHTML = author_array[i].childNodes[0].nodeValue;
+                title.innerHTML = title_array[i].childNodes[0].nodeValue;
+                price.innerHTML = price_array[i].childNodes[0].nodeValue;
+                genre.innerHTML = genre_array[i].childNodes[0].nodeValue;
+            }
+        }
+    </script>
+</body>
+</html>
