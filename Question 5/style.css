@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+/* font-family: 'Koulen', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+/* font-family: 'Radio Canada', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("brandi.jpg");
+}
+
+.registration_form{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.107);
+    padding: 9vh;
+}
+
+.heading{
+    font-family: 'Koulen', cursive;
+    font-size:xx-large;
+    
+}
+
+.form_text{
+    font-family: 'Roboto', sans-serif;
+}
+
+.label{
+    font-family: 'Radio Canada', sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
