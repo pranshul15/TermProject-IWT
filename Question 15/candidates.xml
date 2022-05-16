@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<university_students>
+    <student>
+        <roll_number>01</roll_number>
+        <name>Anushka</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>anushkapant@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>02</roll_number>
+        <name>Aryan</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>palkararyan@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>03</roll_number>
+        <name>Pranshul</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>pranshulhatwar@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>04</roll_number>
+        <name>Sriya</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>csriya@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>05</roll_number>
+        <name>Ritesh</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>riteshbhartiya@gmail.com</email>
+    </student>
+</university_students>
