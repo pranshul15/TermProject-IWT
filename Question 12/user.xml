@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<university_students>
+    <student>
+        <roll_number>01</roll_number>
+        <name>Anushka</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>anushkapant@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>02</roll_number>
+        <name>Aryan</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>palkararyan@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>03</roll_number>
+        <name>Pranshul</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>pranshulhatwar@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>04</roll_number>
+        <name>Sriya</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>csriya@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>05</roll_number>
+        <name>Ritesh</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>riteshbhartiya@gmail.com</email>
+    </student>
+    
+   <student>
+        <roll_number>06</roll_number>
+        <name>Chetna</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>chetnaburde@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>07</roll_number>
+        <name>Samar</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>samarpratapsingh@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>08</roll_number>
+        <name>Ayush</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>ayushgupta@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>09</roll_number>
+        <name>Vizan</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>vizanverma@gmail.com</email>
+    </student>
+    <student>
+        <roll_number>10</roll_number>
+        <name>Harris</name>
+        <college>NIT Raipur</college>
+        <branch>Information Technology</branch>
+        <year_of_joining>2020</year_of_joining>
+        <email>harris@gmail.com</email>
+    </student>
+</university_students>
